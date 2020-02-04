@@ -1,17 +1,86 @@
-* {
-  margin:0px;
-  padding:0px;
+body
+{
+  font-size:1.7em;
 }
-
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+h1
+{
+  text-align:center;
+  font-style:bold;
+  color:#3E2723;
+  margin-left:2em;
 }
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+h2
+{
+  font-size:1.3em;
+  text-align:center;
+  text-decoration:underline;
+  color:#3E2723;
+}
+p{
+  text-indent:2em;
+  font-size:2em
+  line-height:50%;
+  font-family:serif;
+  font-weight:600;
+  color:#263238;
+}
+div{
+  margin-left:1.5em;
+  margin-right:1.5em;
+  width:90%;
+}
+.p1{
+  border-style:none;
+  padding-left:0;
+  border-left-style:solid;
+  border-left-width:1.7em;
+  border-color:#548485;
+  text-indent:0;
+  margin-left:2em;
+  font-weight:700;
+  background-color:#000070;
+  margin-right:2em;
+  width:3em;
+  color:White;
+}
+a{
+  margin-left:1em;
+  text-decoration:underline;
+  color:#546E7A;
+}
+div.sc{
+  width:auto;
+  margin-left:1em;
+  margin-right:1em;
+  background-color:#78909C;
+  overflow:scroll;
+  padding:0.2em;
+  height:10em;
+  border-radius:0.5em;
+}
+p.sc{
+  color:#fff;
+  text-indent:1em;
+  margin-right:0.5em;
+  margin-left:0.5em;
+}
+button{
+  background-color:#78909C;
+  color:#fff;
+  border-style:none;
+  padding:0.5em;
+  text-align:center;
+  margin-top:2em;
+  margin-bottom:2em;
+  border-radius:0.7em;
+  font-size:0.7em;
+}
+textarea{
+  height:2em;
+  font-size:1em;
+  font-weight:500;
+  color:#000;
+  border-radius:1em;
+  margin:0.5em;
+  width:90%;
 }
